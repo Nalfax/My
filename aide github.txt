@@ -1,4 +1,4 @@
 Comment envoyer les modifications de code:
 'git add .' => mettre dans un coin les fichiers modifiés
 'git commit -m "Nommer les modifications"' => mettre dans un autre coin les fichiers déjà mis dans un coin
-'git push' => envoyer les fichiers mis dans l'autre coin sur github
+'git push' => envoyer les fichiers mis dans l'autre coin sur github (faire 'git push -u origin master' si première fois)
