@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="premier.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+    <title>page produit</title>
+    <style></style>
+</head>
+
+<body>
+    <header>
+        <button>
+            <a href="indextest.html">RETOUR</a>
+        </button>
+
+        <div class="logo">
+            <h1>My Drugs</h1>  
+            <p>--------------------------------------</p>          
+        </div>
+    </header>
+    <div id="container">
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+        <a href="article.html"><img src="image/article.png" alt="" classe="item"></a>
+    </div>
+        <button id="previous"><img src="image/images-removebg-preview.png" alt="fleche"></button>
+        <button id="next"><img src="image/images.png" alt="fleche"></button>
+        <script>
+            const container = document.getElementById("container");
+            const previous = document.getElementById('previous');
+            const next = document.getElementById('next');
+
+            previous.addEventListener("click", () => {
+                container.scrollLeft = container.scrollLeft - 252;
+            })
+
+            next.addEventListener("click", () => {
+                container.scrollLeft = container.scrollLeft + 252;
+            })
+        </script>
+   </body>
+</html>
