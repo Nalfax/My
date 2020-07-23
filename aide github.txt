@@ -4,4 +4,7 @@ Comment envoyer les modifications de code:
 'git push' => envoyer les fichiers mis dans l'autre coin sur github (faire 'git push -u origin master' si première fois)
 
 Pour récupérer les modifications faites par l'autre:
-'git pull' (-u origin master à la fin si première fois) testteste
+'git pull' (-u origin master à la fin si première fois) 
+
+
+whalal je test des bail 
