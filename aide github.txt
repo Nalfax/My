@@ -7,4 +7,4 @@ Pour récupérer les modifications faites par l'autre:
 'git pull' (-u origin master à la fin si première fois) 
 
 
-whalal je test des bail 
+whalal je test des bail
