@@ -30,7 +30,6 @@ object-fit: cover;
 
 section{
     height: 100vh;
-    color: black;
 }
 
 section h1{
@@ -48,9 +47,10 @@ section h1{
   width: 175px;
   position: relative;
   top: 50%;
-  left: 46%;
-  
+  left: 43%;
 }
+
+
 
 .btn{
   height: 45px;
@@ -80,12 +80,6 @@ section h1{
 .btn:active{
   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+        inset -4px -4px 6px 0 rgba(255,255,255,.5),
+        inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
 }
-  
-section a {
-  text-decoration: none;
-  color: black;
-}
-  
