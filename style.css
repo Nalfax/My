@@ -9,6 +9,35 @@ body {
     font-family: 'Red Rose', cursive;
 }
 
+#navbar {
+  background: white;
+  padding: 12px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 0.4s;
+}
+
+#navbar a {
+  float: left;
+  padding: 10px;
+  font-size: 18p x;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar-right {
+  margin-top: 25px;
+  float: right;
+}
+
 .intro { 
 height: 100vh;
 }
@@ -33,9 +62,19 @@ section{
 }
 
 section h1{
-    padding-top: 300px;
+    padding-top: 400px;
     text-align: center;
     font-size: 80px;
+}
+
+section a{
+  text-decoration: none;
+  color: black;
+}
+
+#ct{
+  text-align: center;
+  margin-top: -15px;
 }
 
 .frame{
@@ -46,11 +85,7 @@ section h1{
   height: 40px;
   width: 175px;
   position: relative;
-  top: 50%;
-  left: 43%;
 }
-
-
 
 .btn{
   height: 45px;
