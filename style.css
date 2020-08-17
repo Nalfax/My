@@ -26,11 +26,19 @@ body {
   border-radius: 4px;
 }
 
-#navbar #logo {
+#navbar #background {
+  position: relative;
+  top: 13px;
   font-size: 35px;
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+#navbar #background p{
+  position: relative;
+  left: 90px;
+  top: -53px;
 }
 
 #navbar-right {
@@ -72,9 +80,10 @@ section a{
   color: black;
 }
 
-#ct{
-  text-align: center;
-  margin-top: -15px;
+#hct{
+  position: relative;
+  top: -15px;
+  left: 48%;
 }
 
 .frame{
